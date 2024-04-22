@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        /* Oculta la segunda imagen al principio */
+        #imagen2 {
+            display: none;
+        }
+    </style>
+    <script src="index.js"></script> <!-- Aquí se incluye el archivo JavaScript -->
+</head>
+<body onload="cambiarImagen()"> <!-- Aquí se llama a la función cuando la página se carga -->
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item"><a href="../index/index.html">Inicio</a></li>
+            <li class="navbar-item"><a href="../Service/indexService.html">Servicios</a></li>
+            <li class="navbar-item"><a href="#">Contacto</a></li>
+            <li class="navbar-item"><a href="#">Sobre mí</a></li>
+        </ul>
+    </nav>
+    <img id="imagen1" src="IMG_6728.JPG" alt="Imagen 1" class="tu-clase-aqui">
+    <img id="imagen2" src="IMG_7106.JPG" alt="Imagen 2" class="tu-clase-aqui">
+</body>
+</html>

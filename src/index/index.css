@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+    padding: 30px; /* Ajusta el valor según sea necesario */
+}
+
+.navbar-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin: 0 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px; /* Tamaño de fuente deseado */
+}
+
+.navbar-item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+body {
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    max-height: 100vh; /* Establece la altura máxima del cuerpo como el 100% de la altura visible */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde del cuerpo */
+}
+
+.tu-clase-aqui {
+    display: block;
+    margin: 0 auto; /* Esto centrará horizontalmente la imagen */
+    width: 100%; /* Ocupa todo el ancho disponible */
+    max-width: none; /* Permite que la imagen se corte si es demasiado grande */
+    height: auto; /* Altura automática para mantener la proporción */
+}
